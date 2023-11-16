@@ -124,7 +124,7 @@ def print_help_info():
     """
     Prints sample calculations and formulae for calculating body fat percentage.
 
-    This function provides users with example measurements and the formulae used
+    This function provides users with example measurements and the formula used
     for calculating body fat percentage for both men and women. It is intended to
     help users understand how the measurements affect the calculation and provide
     a reference for the input format.
