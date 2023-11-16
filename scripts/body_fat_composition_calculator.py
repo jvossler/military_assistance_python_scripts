@@ -19,8 +19,23 @@ Example:
     To run the calculator, execute this script and follow the interactive prompts.
 
 Note:
-    This script uses the formulas provided in AR 600-9 (2019), Table B-5 for calculations. 
+    This script uses the formulae provided in AR 600-9 (2019), Table B-5 for calculations. 
     It's intended for informational purposes and should not replace professional medical advice.
+
+Copyright (C) 2023 https://github.com/jvossler
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
 """
 
 import math
@@ -142,7 +157,7 @@ def print_help_info():
     """
     Prints sample calculations and formulae for calculating body fat percentage.
 
-    This function provides users with example measurements and the formula used
+    This function provides users with example measurements and the formulae used
     for calculating body fat percentage for both men and women. It is intended to
     help users understand how the measurements affect the calculation and provide
     a reference for the input format.
