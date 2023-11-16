@@ -1,5 +1,5 @@
 """
-Body Fat Percentage Calculator based on Army Regulation 600-9
+Body Fat Percentage Calculator based on Army Regulation 600-9 (2019)
 
 This script calculates the body fat percentage for both men and women based on the guidelines
 outlined in the U.S. Army Regulation 600-9. It prompts users for their measurements including
@@ -19,7 +19,7 @@ Example:
     To run the calculator, execute this script and follow the interactive prompts.
 
 Note:
-    This script uses the formulas provided in AR 600-9, Table B-5 for calculations. 
+    This script uses the formulas provided in AR 600-9 (2019), Table B-5 for calculations. 
     It's intended for informational purposes and should not replace professional medical advice.
 """
 
