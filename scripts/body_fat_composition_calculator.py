@@ -2,6 +2,14 @@ import math
 
 
 def main():
+    """
+    The main function to run the Body Fat Percentage Calculator.
+
+    This function prompts the user to either get help information, calculate their body
+    fat percentage, or exit the program. It handles user input and guides them through
+    the process of entering the necessary measurements for calculating body fat percentage.
+    """
+
     # Example usage
     print("Welcome to the Body Fat Percentage Calculator!")
     print(
@@ -113,6 +121,15 @@ def body_fat_percentage_men(neck_measurement, waist_measurement, height):
 
 
 def print_help_info():
+    """
+    Prints sample calculations and formulae for calculating body fat percentage.
+
+    This function provides users with example measurements and the formulae used
+    for calculating body fat percentage for both men and women. It is intended to
+    help users understand how the measurements affect the calculation and provide
+    a reference for the input format.
+    """
+
     # Print the sample information for help
     print("\nSample body fat calculations (Ref: AR 600-9, Table B-5):\n")
     print("SAMPLE (WOMEN)")
