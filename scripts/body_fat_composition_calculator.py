@@ -133,8 +133,9 @@ def print_help_info():
     # Print the sample information for help
     print("\nSample body fat calculations (Ref: AR 600-9, Table B-5):\n")
     print("SAMPLE (WOMEN)")
-    print("Equation for women is:\n"
-        "% body fat (women) = [163.205 × log10 (waist + hip − neck)] − [97.684 × log10 (height)] − 78.387\n"  
+    print(
+        "Equation for women is:\n"
+        "% body fat (women) = [163.205 × log10 (waist + hip − neck)] − [97.684 × log10 (height)] − 78.387\n"
     )
     print(
         "Example Measurements:\n"
@@ -144,15 +145,17 @@ def print_help_info():
         "Height = 64 inches\n\n"
     )
     print("SAMPLE (MEN)")
-    print("Equation for men is:\n"
+    print(
+        "Equation for men is:\n"
         "% body fat (men) = [86.010 × log10 (waist − neck)] − [70.041 × log10 (height)] + 36.76\n"
     )
-    print("Example Measurements:\n"
+    print(
+        "Example Measurements:\n"
         "Neck = 15 inches\n"
         "Waist = 40 inches\n"
         "Height = 69 inches\n\n"
     )
-    
+
     print(
         "References:\n"
         "United States Army. (2019). Army Regulation 600-9: The Army Body Composition Program. Retrieved from:\n"
