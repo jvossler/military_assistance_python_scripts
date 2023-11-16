@@ -76,13 +76,6 @@ def main():
         else:
             print("Invalid command entered.")
 
-    # # Example usage
-    # women_body_fat = body_fat_percentage_women(15, 42, 44, 64)  # Example given for women
-    # men_body_fat = body_fat_percentage_men(16, 49, 69)          # Example given for men
-
-    # women_body_fat
-    # men_body_fat
-
 
 # Function for calculating body fat percentage for women
 def body_fat_percentage_women(
