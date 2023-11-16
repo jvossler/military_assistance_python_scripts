@@ -1,3 +1,28 @@
+"""
+Body Fat Percentage Calculator based on Army Regulation 600-9
+
+This script calculates the body fat percentage for both men and women based on the guidelines
+outlined in the U.S. Army Regulation 600-9. It prompts users for their measurements including
+neck, waist, and hip circumferences (hip only for women), and height, to calculate and output
+their body fat percentage. 
+
+The script supports interactive use where the user can choose to either get help information,
+perform a calculation, or exit the program.
+
+Functions:
+    main() - The main function to run the Body Fat Percentage Calculator.
+    body_fat_percentage_women(neck_measurement, waist_measurement, hip_measurement, height) - Calculates body fat percentage for women.
+    body_fat_percentage_men(neck_measurement, waist_measurement, height) - Calculates body fat percentage for men.
+    print_help_info() - Prints sample calculations and formulae.
+
+Example:
+    To run the calculator, execute this script and follow the interactive prompts.
+
+Note:
+    This script uses the formulas provided in AR 600-9, Table B-5 for calculations. 
+    It's intended for informational purposes and should not replace professional medical advice.
+"""
+
 import math
 
 
