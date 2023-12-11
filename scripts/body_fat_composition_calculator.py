@@ -168,8 +168,8 @@ def print_help_info():
     print("SAMPLE (WOMEN)")
     print(
         "Equation for women is:\n"
-        "% body fat (women) = [163.205 × log10 (waist + hip − neck)] − "
-        "[97.684 × log10 (height)] − 78.387\n"
+        "% body fat (women) = [163.205 × log10(waist + hip − neck)] − "
+        "[97.684 × log10(height)] − 78.387\n"
     )
     print(
         "Example Measurements:\n"
@@ -181,8 +181,8 @@ def print_help_info():
     print("SAMPLE (MEN)")
     print(
         "Equation for men is:\n"
-        "% body fat (men) = [86.010 × log10 (waist − neck)] − [70.041 × "
-        "log10 (height)] + 36.76\n"
+        "% body fat (men) = [86.010 × log10(waist − neck)] − [70.041 × "
+        "log10(height)] + 36.76\n"
     )
     print(
         "Example Measurements:\n"
